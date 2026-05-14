@@ -1,0 +1,7 @@
+.DS_Store
+Airbnb_Open_Data.csv
+Airbnb_Cleaned.csv
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+*.pyc
