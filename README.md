@@ -8,7 +8,6 @@
 
 A complete end-to-end data analysis project on **98,109 Airbnb listings in New York City** — covering Python data cleaning, PostgreSQL SQL analysis, and an interactive Tableau dashboard.
 
-> **Live Dashboard →** [Tableau Public](#) *(replace with your link after publishing)*
 > **Dataset →** [Airbnb Open Data on Kaggle](https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata)
 
 ---
@@ -18,6 +17,8 @@ A complete end-to-end data analysis project on **98,109 Airbnb listings in New Y
 ![Airbnb NYC Booking Analysis Dashboard](docs/dashboard_preview.png)
 
 *Interactive dashboard with 6 charts, KPI cards, NYC map, and cross-chart filters*
+<img width="1470" height="956" alt="Screenshot 2026-05-14 at 10 50 06 AM" src="https://github.com/user-attachments/assets/d6b264e0-f092-46ee-9154-0506cbf94ce2" />
+
 
 ---
 
@@ -47,17 +48,12 @@ airbnb-nyc-analysis/
 │
 ├── notebooks/
 │   ├── Airbnb_EDA_Cleaning.ipynb      ← Python EDA & data cleaning
-│   └── Airbnb_SQL_Analysis.ipynb      ← SQL queries + Python visualisations
 │
 ├── sql/
 │   └── booking_analysis_queries.sql   ← all SQL queries (standalone)
 │
 ├── dashboard/
 │   └── Airbnb_Dashboard.twbx          ← Tableau packaged workbook
-│
-├── docs/
-│   ├── Airbnb_Project_Report.docx     ← full project documentation
-│   └── dashboard_preview.png          ← dashboard screenshot
 │
 ├── README.md
 ├── requirements.txt
@@ -120,7 +116,7 @@ Download `Airbnb_Open_Data.csv` from [Kaggle](https://www.kaggle.com/datasets/ar
 
 ### 4. Run the cleaning notebook
 ```bash
-jupyter notebook notebooks/Airbnb_EDA_Cleaning.ipynb
+jupyter notebook notebooks/Airbnb_EDA.ipynb
 ```
 Run all cells. This produces `Airbnb_Cleaned.csv` and loads data into PostgreSQL.
 
@@ -130,9 +126,9 @@ CREATE DATABASE airbnb_db;
 ```
 Update credentials in the notebook before running the PostgreSQL cell.
 
-### 6. Run the SQL analysis notebook
+### 6. Run the SQL analysis 
 ```bash
-jupyter notebook notebooks/Airbnb_SQL_Analysis.ipynb
+Airbnb_SQL_Analysis
 ```
 
 ### 7. Open the Tableau dashboard
@@ -300,10 +296,8 @@ jupyter>=1.0.0
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
-- Tableau Public: [your-tableau](https://public.tableau.com/profile/your-profile)
-
+- GitHub: [@your-username](https://github.com/Priyanshuk1405)
+- LinkedIn: [your-linkedin](https://linkedin.com/in/priyanshu-kansara)
 ---
 
 ## 📄 License
